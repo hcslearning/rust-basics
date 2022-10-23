@@ -20,7 +20,11 @@ cargo new $PROJECT_NAME
 
 ### Build Project
 ```
+# debug version
 cargo build
+
+# optimized production version
+cargo build --release
 ```
 
 ### Build and Run Project
