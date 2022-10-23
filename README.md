@@ -28,6 +28,14 @@ cargo build
 cargo run 
 ```
 
+### Check Code
+This command quickly checks your code to make sure it compiles but doesn't produce an executable.
+The **cargo check** command is much faster than **cargo build**.
+
+```
+cargo check
+```
+
 ## Docker
 
 ```
