@@ -48,3 +48,9 @@ WORKDIR=/home/zero/Documents/Aprendiendo/Rust/rust-basics
 podman rm rust-vm
 podman run -it --name rust-vm -v $WORKDIR $RUST_IMAGE /bin/bash
 ```
+
+## Rust Fedora Linux
+
+```
+sudo yum install rust rust-src cargo 
+```
